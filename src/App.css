@@ -1,0 +1,38 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-image: url(https://k1.midasplayer.com/images/share/banners/candycrush.png?_v=kmoqjd);
+  height:100vh;
+  min-height: 100vh;
+}
+.game{
+  display: flex;
+  width: 560px;
+  height: 560px;
+ background-color: #ffffff;
+ 
+ flex-wrap: wrap;
+ box-shadow: 0 10px 20px black;
+}
+
+.game img{
+  height: 70px;
+  width: 70px;
+  
+}
+.scoreCard{
+border: 2px solid chartreuse;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+padding: 1rem;
+}
+.scoreCard h1{
+ color: chartreuse;
+}
+.scoreCard h3{
+  color: black;
+  font-size: 34px;
+}
